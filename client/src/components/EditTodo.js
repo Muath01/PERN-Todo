@@ -17,6 +17,7 @@ const EditTodo = ({ todo }) => {
           body: JSON.stringify(body),
         }
       );
+      setDescription("");
 
       window.location = "/";
     } catch (err) {
